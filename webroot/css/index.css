@@ -100,3 +100,61 @@ h1 {
   display: flex;
   flex-direction: row;
   gap: 1rem; }
+
+.webpage__experience {
+  background-color: white;
+  padding-top: 22px;
+  padding-bottom: 6rem;
+  padding-left: 22px;
+  padding-right: 22px;
+  justify-items: center;
+  border-radius: 12px;
+  -webkit-box-shadow: -7px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: -7px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px; }
+  .webpage__experience--header {
+    text-transform: lowercase;
+    color: #4F4F4F; }
+  .webpage__experience--time {
+    color: #4F4F4F;
+    font-size: 14px;
+    margin-bottom: 12px; }
+  .webpage__experience--job {
+    font-weight: 600s;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 33px; }
+
+.webpage__description {
+  font-size: 16px;
+  margin-bottom: 36px; }
+
+.webpage__progress {
+  background-color: white;
+  padding-top: 22px;
+  padding-bottom: 6rem;
+  padding-left: 22px;
+  padding-right: 22px;
+  justify-items: center;
+  border-radius: 12px;
+  -webkit-box-shadow: -7px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: -7px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px; }
+  .webpage__progress--header {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4F4F4F; }
+  .webpage__progress--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .webpage__progress--progress {
+    margin-left: 19px; }
+  .webpage__progress--name {
+    margin-left: -2rem; }

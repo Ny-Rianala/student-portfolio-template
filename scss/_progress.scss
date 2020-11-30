@@ -1,0 +1,16 @@
+.webpage__progress {
+    @include main-container;
+&--header {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4F4F4F;
+}&--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}&--progress {
+    margin-left: 19px;
+}&--name {
+    margin-left: -2rem;
+}
+}

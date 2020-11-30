@@ -20,7 +20,7 @@
                 <li><i class="ri-mail-fill"></i><a class="masthead__about--email" href="mailto:kevin@example.com">Kevin@example.com</a></li>
                 <li><i class="ri-phone-fill"></i><a class="masthead__about--contact" href="tel:+2610348001526">(+261)348001526</a></li>
             </ul>
-            <p class="masthead__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi in sit molestias veniam labore asperiores error id? A consequuntur </p>
+            <p class="masthead__description">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
         </div>
     </header>
     <main>
@@ -32,34 +32,43 @@
                 <button class="secondary">Code</button>
             </div>
         </article>
-        <article class="webpage">
-            <h1 class="webpage__header">Front End</h1>
-            <span>React 30%<progress id="file" value="32" max="100"></progress></span>
-            <span>Js 40%<progress id="file" value="32" max="100"> </progress></span>
-            <span>CSS 70%</span><progress id="file" value="32" max="100"> </progress>
-            <span>HTML</span><progress id="file" value="32" max="100"> </progress>
-            <span>Markdown 90% </span><progress id="file" value="32" max="100"></progress>
+        <article class="webpage__progress">
+            <h1 class="webpage__progress--header">Front End</h1>
+            <ul class="webpage__progress--container">
+                <li class="webpage__progress--name">React</li>
+                <li></li><progress id="file" value="30" max="100">30%</progress></li>
+            </ul>
+            <ul class="webpage__progress--container">
+                <li class="webpage__progress--name">Javascript</li>
+                <li class="webpage__progress--progress"><progress id="file" value="40" max="100">40%</progress></li>
+            </ul>
+            <ul class="webpage__progress--container">
+                <li class="webpage__progress--name">CSS</li>
+                <li class="webpage__progress--progress"><progress id="file" value="80" max="100">80%</progress></li>
+            </ul>
+            <ul class="webpage__progress--container">
+                <li class="webpage__progress--name">HTMl</li>
+                <li class="webpage__progress--progress"><progress id="file" value="90" max="100">90%</progress></li>
+            </ul>
         </article>
         <article class="webpage">
             <img/>
             <h1 class="webpage__header">How to organise your CSS</h1>
             <p class="webpage__description">In this project, I work with html and css to create a reasponsive design. The design is from figma.com. This project is about photograph.</p>
         </article>
-        <article class="webpage">
-            <h1 class="webpage__header">Experience</h1>
-            <div class="webpage__experience">
-                <img />
+        <article class="webpage__experience">
+            <h1 class="webpage__experience--header">Experiences</h1>
+            <div class="webpage__experience--description">
                 <ul>
-                    <li><time>Jan 2020</time></li>
-                    <li>Front End developer</li>
+                    <li class="webpage__experience--time"><time>Jan 2020</time></li>
+                    <li class="webpage__experience--job">Front End developer</li>
                     <li class="webpage__description">In this project, I work with html and css to create a reasponsive design. The design is from figma.com. This project is about photograph.</li>
                 </ul>
             </div>
-            <div class="webpage__experience">
-                <img />
+            <div class="webpage__experience--description">
                 <ul>
-                    <li><time>Jun 2020</time></li>
-                    <li>Front End developer</li>
+                    <li class=" webpage__experience--time"><time>Jun 2020</time></li>
+                    <li class="webpage__experience--job">Front End developer</li>
                     <li class="webpage__description">In this project, I work with html and css to create a reasponsive design. The design is from figma.com. This project is about photograph.</li>
                 </ul>
             </div>

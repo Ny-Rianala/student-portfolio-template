@@ -1,0 +1,15 @@
+@mixin main-container {
+    background-color: white;
+    padding-top: 22px;
+    padding-bottom: 6rem;
+    padding-left: 22px;
+    padding-right: 22px;
+    justify-items: center;
+    border-radius: 12px;
+    -webkit-box-shadow: -7px 5px 15px 5px rgba(0,0,0,0.16); 
+    box-shadow: -7px 5px 15px 5px rgba(0,0,0,0.16);
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
